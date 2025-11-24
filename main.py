@@ -170,8 +170,8 @@ class BugFixer(dspy.Signature):
 # Streamlit UI
 # ======================
 st.set_page_config(page_title="AI Bug Fixer (DSPy)", page_icon="🛠️")
-st.title("🛠️ AI Bug Fixer Prototype (DSPy + Gemini)")
-st.write("Paste buggy code, and the AI will analyze + fix it using modular prompts.")
+st.title("AI Bug Fixer Prototype")
+st.write("Paste buggy code, and the AI will analyze + fix it using modular prompts. ")
 
 # Configure DSPy predictor
 if "predictor" not in st.session_state:
