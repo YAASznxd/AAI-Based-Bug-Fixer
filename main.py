@@ -35,7 +35,7 @@ def render_bubble(text, role="assistant"):
 # ======================
 # 1) API KEY
 # ======================
-KEY = "AIzaSyA0DkJiSCHcYA9NO93YsoZK_TmS_f4SOeE"
+KEY = ""
 
 # ======================
 # 2) Modular prompt components
